@@ -1,0 +1,30 @@
+{
+  "name": "translater",
+  "version": "2.0.0",
+  "description": "Translate is a command-line interface to the MyMemory translated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "translater": "./bin/translater.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/previousdeveloper/translater.git"
+  },
+  "keywords": [
+    "translater"
+  ],
+  "author": "Gokhan Karadas <gokhan.karadas1992@gmail.com> (http://www.gokhankaradas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/previousdeveloper/translater/issues"
+  },
+  "homepage": "https://github.com/previousdeveloper/translater/issues#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "request": "^2.64.0",
+    "yargs":"^3.29.0"
+  }
+}
